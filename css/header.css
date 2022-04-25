@@ -1,0 +1,34 @@
+#header {  
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #fcf7f2;
+    z-index: 99;
+    position: fixed;
+}
+ul {
+    margin: 40px;
+    justify-content: space-between ;
+}
+#social{
+    align-items: flex-start;
+    
+}
+#mode{
+    align-items: flex-end;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+}
+#social .menu {
+    padding: 0 15px;
+}
+img {
+    padding : 10px;
+    width : 42px;
+    height : 42px;
+}
